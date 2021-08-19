@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  height: 100vh;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+#one {
+  background-image: linear-gradient( 109.6deg,  rgba(61,245,167,1) 11.2%, rgba(9,111,224,1) 91.1% );
+  height: 100vh;
+}
+.data {
+  color: white;
+  display: flex;
+  justify-content: center;
+  height: 85vh;
+  align-items: center;
+  text-align: center;
+}
+.data-text {
+  padding: 20px 30px;
+}
+.data-text h1,
+h2,
+p {
+  text-transform: capitalize;
+  font-size: 2.5rem;
+}
+.data-text h2 {
+  font-size: 2rem;
+  margin: 15px 0px;
+}
+.data-text p {
+  font-size: 1rem;
+}
+.btn {
+  text-align: center;
+  margin-top: 20px;
+}
+.btn1 {
+  margin: 15px 20px;
+}
+.btn1,
+.btn2 {
+  padding: 10px 10px;
+  border: none;
+  outline: none;
+  border-radius: 5%;
+  text-transform: uppercase;
+  border: 1px solid white;
+}
+.btn1 a,
+.btn2 a {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+.btn1:hover,
+.btn2:hover {
+  background: rgb(178, 178, 190);
+  border: none;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  text-align: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.col {
+  flex: 1;
+  padding: 20px 60px;
+  margin-top: 150px;
+}
+.image {
+  max-width: 500px;
+  width: 100%;
+}
+.col,
+.cust-para {
+  font-size: 1rem;
+  margin-top: 40px;
+}
+.cust-btn {
+  margin-top: 20px;
+  border: none;
+  background-image: linear-gradient( 109.6deg,  rgba(61,245,167,1) 11.2%, rgba(9,111,224,1) 91.1% );
+}
+.cust-btn,
+a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+.cust-btn,
+a:hover {
+  color: black;
+}
+.row-two,
+.row-three {
+  margin-top: 150px;
+}
+/* -------------------------------------------------------------------------- */
+.view-data {
+  overflow: hidden;
+}
+.color h2 {
+  background-image: linear-gradient( 109.6deg,  rgba(61,245,167,1) 11.2%, rgba(9,111,224,1) 91.1% );
+  color: white;
+  padding: 8px 0px;
+}
+.transfer-btn {
+  background-image: linear-gradient( 109.6deg,  rgba(61,245,167,1) 11.2%, rgba(9,111,224,1) 91.1% );
+  margin-top: 0px;
+  color: white;
+}
+td {
+  color: black;
+}
+.color .create {
+  padding: 10px 0px;
+  margin-bottom: 57px;
+  font-size: 2.5rem;
+}
+.sub .submit-btn {
+  color: white;
+  background-image: linear-gradient( 109.6deg,  rgba(61,245,167,1) 11.2%, rgba(9,111,224,1) 91.1% );
+}
+footer {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #f2f2f2;
+}
+footer p {
+  padding: 10px 0px;
+  margin-bottom: 0px;
+  font-size: 1rem;
+  opacity: 0.5;
+}
+footer span {
+  font-weight: bold;
+}
+.view-footer,
+.transfer-footer,
+.history-footer {
+  margin-top: 400px;
+}
+.user-footer {
+  margin-top: 250px;
+}
